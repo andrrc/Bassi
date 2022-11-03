@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/rodape.css">
+    <title>Principal</title>
+</head>
+<body>
+    <header class="header">
+        <nav class="header_nav">
+        <h1 class="titulo">Bassi</h1>
+        <ul class="ul1">
+            <li class="menu">Home</li>
+            <li class="menu">Masculina</li>
+            <li class="menu">Feminina</li>
+        </ul>
+        </nav>
+
+        <div></div>
+    </header>
+
+    <section>
+        <div class="container_div">
+        <img src="img/produto banner 2.png" class="foto_banner">
+    </section>
+        <section>
+        <h2 class="promocao_banner">PROMOÇÃO 10% OFF E 10x SEM JUROS</h2>
+        </div>  
+    </section>
+    
+    <div class="espaçamento"></div>
+
+    <footer class="rodape">
+        <section class="rodape_secao">
+            <div class="rodape_secaotwo">
+            <img src="img/logo bassi alien.png" width="50" class="rodape_logo">
+            <h2>
+            Sorocaba-SP
+            <br>
+            Parque Campolim
+            <br>
+            </h2>
+            </div>
+        </section>
+        
+
+    </footer>
+    
+</body>
+<script>
+    window.addEventListener('scroll', function(){
+  var menu = document.querySelector('.header_nav');
+  menu.classList.toggle('sticky', window.scrollY > 0);
+})
+</script>
+
+</html>

@@ -1,0 +1,22 @@
+
+.rodape {
+    padding-top: 50px;
+    background-color: rgb(61, 14, 127);
+}
+.rodape_secao {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.rodape_secaotwo {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+
+
+}
+.rodape_logo {
+    margin-right: 3%;
+}
+.espaçamento {
+    padding: 500px;
+}

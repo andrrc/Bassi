@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-style: none;
+    text-decoration: none;
+}
+
+.header {
+    position: fixed;
+    display: flex;
+
+    width: 100%;
+    top: 0;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    height: 100px;
+}
+
+.titulo {
+    padding-left: 2%;
+    font-size: 70px;
+    color: rgb(136, 72, 179);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    flex: 1;
+}
+
+.foto_banner  {
+    top: 0;
+    width: 100%;
+    padding-top: 85px;
+
+}
+.header_nav {
+    display: flex;
+    position: fixed;
+}
+.header_nav.sticky {
+    background-color: rgb(255, 255, 255);
+}
+.header_nav:hover {
+    background-color: rgb(255, 255, 255);
+}
+.menu {
+    display: flex;
+    justify-content: flex-start;
+    text-align: center;
+    word-spacing: 50px;
+    color: rgb(136, 72, 179);
+    text-decoration: none;
+    list-style: none;
+    font-size: 17px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.header_nav {
+    width: 100%;
+    top: 0;
+}
+
+.header_nav {
+    gap: 20px;
+}
+
+.header nav ul {
+    gap: 20px;
+    flex: 1;
+
+    display: flex;
+
+    justify-content: flex-start;
+}
+.ul1{
+    margin-right: 230px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+}
+li.menu:hover {
+    border: 3px solid rgb(255, 205, 50);
+    border-radius: 25px;
+    padding: 10px;
+    font-weight: bolder;
+}
+.promocao_banner{
+    text-align: center;
+    background-color: rgba(0, 0, 128, 0.613);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+.promocao_banner {
+    background-color: brown;
+}
+.container_div {
+    flex-direction: column ;
+}
