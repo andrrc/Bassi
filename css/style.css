@@ -17,7 +17,6 @@
 
     justify-content: space-between;
 
-    height: 100px;
 }
 
 .titulo {
@@ -30,7 +29,7 @@
 }
 
 .foto_banner  {
-    top: 0;
+
     width: 100%;
     padding-top: 85px;
 
@@ -38,6 +37,8 @@
 .header_nav {
     display: flex;
     position: fixed;
+    background-color: white;
+    width: fit-content;
 }
 .header_nav.sticky {
     background-color: rgb(255, 255, 255);
@@ -46,39 +47,23 @@
     background-color: rgb(255, 255, 255);
 }
 .menu {
-    display: flex;
-    justify-content: flex-start;
-    text-align: center;
-    word-spacing: 50px;
     color: rgb(136, 72, 179);
     text-decoration: none;
     list-style: none;
-    font-size: 17px;
+    font-size: 100%;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .header_nav {
     width: 100%;
     top: 0;
 }
-
-.header_nav {
-    gap: 20px;
-}
-
-.header nav ul {
-    gap: 20px;
-    flex: 1;
-
-    display: flex;
-
-    justify-content: flex-start;
-}
 .ul1{
-    margin-right: 230px;
+    margin-right: 42%;
     align-items: center;
     display: flex;
     justify-content: center;
     font-weight: bolder;
+    gap: 20px;
 }
 li.menu:hover {
     border: 3px solid rgb(255, 205, 50);
@@ -96,5 +81,47 @@ li.menu:hover {
     background-color: brown;
 }
 .container_div {
+    display: flex;
     flex-direction: column ;
+}
+.section_produtos {
+    max-width: fit-content;
+    background-color:rgb(231, 231, 231); 
+    border-radius: 2%;
+    margin-top: 20px;
+    display: inline-block;
+    text-align: center;
+    margin: 20px;
+    padding-bottom: 5px;
+}
+.preco_produt {
+    color: black;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 25px;
+    opacity: 80%;
+}
+.content_produt {
+    text-align: center;
+}
+.whatsapp {
+    position: fixed;
+    top: 90%;
+    right: 1%;
+    padding: 10px;
+    z-index: 10000000;
+}
+.preco_riscado {
+    color: red;
+    text-decoration: line-through;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 20px;
+    opacity: 80%;
+}
+@media (min-width:100px) {
+    .foto_banner {
+        width: 100%;
+    }
 }

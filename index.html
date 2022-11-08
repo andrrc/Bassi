@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/rodape.css">
+    <link rel="stylesheet" href="css/newsletter.css">
+    <link href="img/logo bassi alien.png" rel="icon">
     <title>Principal</title>
 </head>
 <body>
@@ -13,43 +15,91 @@
         <nav class="header_nav">
         <h1 class="titulo">Bassi</h1>
         <ul class="ul1">
-            <li class="menu">Home</li>
+            <li class="menu home">Home</li>
             <li class="menu">Masculina</li>
             <li class="menu">Feminina</li>
         </ul>
         </nav>
 
-        <div></div>
     </header>
 
     <section>
         <div class="container_div">
         <img src="img/produto banner 2.png" class="foto_banner">
-    </section>
-        <section>
         <h2 class="promocao_banner">PROMOÇÃO 10% OFF E 10x SEM JUROS</h2>
         </div>  
     </section>
-    
-    <div class="espaçamento"></div>
-
+    <div class="content_produt">
+    <section class="section_produtos">
+        
+        <img src="img/roupa-1_0003_Roxo.png" height="300">
+        <nav class="section_nav">
+            <p class="preco_produt">Camiseta Feminina</p>
+        <p class="preco_produt">R$ 270,00</p>
+        <p class="preco_riscado">R$ 350,00</p>
+    </nav>
+    </section>
+    <section class="section_produtos">
+        
+            <img src="img/roupa-1_0000_Verde.png" height="300">
+            <nav class="section_nav">
+            <p class="preco_produt">Camiseta Feminina</p>
+            <p class="preco_produt">R$ 270,00</p>
+            <p class="preco_riscado">R$ 350,00</p>
+    </section>
+    <section class="section_produtos">
+        <img src="img/roupa-1_0001_Rosa.png" height="300">
+        <nav class="section_nav">
+        <p class="preco_produt">Camiseta Feminina</p>
+        <p class="preco_produt">R$ 270,00</p>
+        <p class="preco_riscado">R$ 350,00</p>
+        </nav>
+    </section>
+    </div>
     <footer class="rodape">
+        <section class="rodape_secao rodape_secao--newletter">
+            <div class="rodape_news">
+            <h2 class="rodape_titulo">Receba nossas novidades e lançamentos</h2>
+
+            <form action="#" method="get" class="form-newsletter">
+                <label for="form-newsletter_label" class="form-newsletter_label">
+                    Seu Email Pessoal
+                </label>
+
+
+                <input id="email-newsletter" name="email-newsletter" type="email" class="form-newsletter_campo">
+                <button type="submit" class="form-newsletter-botao">OK
+                </button>
+            </form>
+            </div>
+           </section>
         <section class="rodape_secao">
             <div class="rodape_secaotwo">
-            <img src="img/logo bassi alien.png" width="50" class="rodape_logo">
-            <h2>
-            Sorocaba-SP
+
+            <p>
+                © 2022 Bassi. Todos os direitos reservados. Fisia Comércio de Produtos Ltda - CNPJ: 00.000.000/0000-00 Parque Campolim, S/N Km 
             <br>
-            Parque Campolim
+            947.5 - Galpão Modulo 3640 - CEP 00000-000 - Sorocaba - SP
             <br>
-            </h2>
+            </p>     
             </div>
         </section>
-        
-
     </footer>
-    
+    <div>
+        <a href="https://api.whatsapp.com/send?phone=55###########" 
+           target="_blank">
+           <img  class="whatsapp" src="https://assets.boxloja.pro/shop/img/whatsapp.png" />
+        </a>
+    </div>
 </body>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-41BRV3NP2D"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-41BRV3NP2D');
+</script>
 <script>
     window.addEventListener('scroll', function(){
   var menu = document.querySelector('.header_nav');

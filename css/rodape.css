@@ -1,7 +1,7 @@
 
 .rodape {
     padding-top: 50px;
-    background-color: rgb(61, 14, 127);
+    background-color: #933B90;
 }
 .rodape_secao {
     color: white;
@@ -11,12 +11,26 @@
     display: flex;
     align-items: flex-end;
     flex-direction: column;
-
-
+    padding-right: 25px;
+    
 }
 .rodape_logo {
     margin-right: 3%;
 }
-.espaçamento {
-    padding: 500px;
+p {
+    font-size: 17px;
+    font-family: 'Bassi';
+}
+.rodape_titulo {
+    margin-bottom: 1em;
+    font-size: 1.45em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.rodape_news {
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    padding-bottom: 25px;
+    padding-right: 25px;
 }
